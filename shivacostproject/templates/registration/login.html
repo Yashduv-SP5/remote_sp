@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load static %}
+body{
+background:url("https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZCUyMHBpY3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="{% static "css/bases.css" %}">
+</head>
+<body>
+<div class="container">
+<div class="jumbotron">
+<h2>WELCOME TO MYRT'S SHOPPING AMIGO AND ENTERPRISES PVT.LTD</H2>
+<table>
+<tr>
+<td>
+<img src="https://pps.whatsapp.net/v/t61.24694-24/353727976_820748242992766_5102284772570534078_n.jpg?ccb=11-4&oh=01_AdS2wZCoSbnwktONx30u0TZ8syphHZf_rt9X-Tgmlig58Q&oe=64CB2E2E" height=300 width=250>
+</td>
+<td>
+<img src="https://pps.whatsapp.net/v/t61.24694-24/328629293_213177571117859_1053796925800515643_n.jpg?ccb=11-4&oh=01_AdTbNtVjMas6VTfxPgU5YMimpRx29MeivPXI9uHdV7brgA&oe=64CB48FF" height=300 width=250>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</td>
+<td>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</td>
+<td>
+<img src="https://pps.whatsapp.net/v/t61.24694-24/354788062_3656981591237361_8225787897887459162_n.jpg?ccb=11-4&oh=01_AdR9K3ciJccTKkLxLKb3UU4ayYw5cr1qXZgOySTgTKJ_uw&oe=64CB634C" height=300 width=300>
+</td>
+</tr>
+</table>
+</DIV>
+</DIV>
+<div class="container">
+<div class="jumbotron">
+<h1>login form:</h1>
+<form method="post">
+{{form.as_p}}
+{% csrf_token %}
+<button type="submit" class="btn btn-success">LOGIN</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/signup" class="btn btn-primary">signup</a>
+</form>
+</div>
+</div>
+</body>
+</html>
